@@ -1,15 +1,19 @@
-import Welcome from "../components/Welcome"
+import OurMision from "../components/Mision";
 
-const Home = () => { 
-    return (<>
 
-    <div className="">
+import Welcome from "../components/Welcome";
+
+const Home = () => {
+  return (
+    <>
+      <div className="relative h-full w-full overflow-hidden">
         <Welcome />
-    </div>
-    
-    
-    
-    </>)
- }
+        <OurMision />
+        
+        
+      </div>
+    </>
+  );
+};
 
- export default Home
+export default Home;
