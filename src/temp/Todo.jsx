@@ -1,6 +1,6 @@
 const Todo = () => { 
 
-    let todo = [  "construir diseño", "agregar interactividad y animaciones"]
+    let todo = [  "construir diseño", "agregar interactividad y animaciones", "agregar funcionalidad"]
     return (<>
 
     <ul> Todo
